@@ -15,10 +15,10 @@ from .base_exp import BaseExp
 class Exp(BaseExp):
     def __init__(self):
         super().__init__()
-
         # ---------------- model config ---------------- #
         # detect classes number of model
-        self.num_classes = 80
+        # self.num_classes = 80
+        self.num_classes = 6
         # factor of model depth
         self.depth = 1.00
         # factor of model width

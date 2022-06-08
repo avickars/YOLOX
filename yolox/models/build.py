@@ -79,7 +79,8 @@ def yolox_m(pretrained=True, num_classes=80, device=None):
     return create_yolox_model("yolox-m", pretrained, num_classes, device)
 
 
-def yolox_l(pretrained=True, num_classes=80, device=None):
+def yolox_l(pretrained=True, num_classes=10, device=None):
+    print('**********************************************************************************************')
     return create_yolox_model("yolox-l", pretrained, num_classes, device)
 
 
